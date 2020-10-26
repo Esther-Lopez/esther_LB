@@ -77,17 +77,17 @@ LOCAL = __import__(name = 'bot.locals.' + CONFIG.LOCAL, fromlist = ['LOCAL']).LO
 # load Command format
 
 COMMAND = Config({
-    'START' : 'start',
+    'START' : 'start@TgJioBot',
     'PASSWORD' : 'pass',
-    'HELP' : 'help',
-    'LEECH' : 'leech',
-    'CANCEL_LEECH' : 'cancel',
-    'LEECH_LIST' : 'list',
-    'UPLOAD_AS_DOC' : 'upload_as_doc',
-    'UPLOAD_AS_ZIP' : 'upload_as_zip',
-    'SET_THUMBNAIL' : 'set_thumbnail',
-    'RESET_THUMBNAIL' : 'reset_thumbnail',
-    'SET_TRACKER' : 'set_tracker'
+    'HELP' : 'help@TgJioBot',
+    'LEECH' : 'leech@TgJioBot',
+    'CANCEL_LEECH' : 'cancel@TgJioBot',
+    'LEECH_LIST' : 'list@TgJioBot',
+    'UPLOAD_AS_DOC' : 'upload_as_doc@TgJioBot',
+    'UPLOAD_AS_ZIP' : 'upload_as_zip@TgJioBot',
+    'SET_THUMBNAIL' : 'set_thumbnail@TgJioBot',
+    'RESET_THUMBNAIL' : 'reset_thumbnail@TgJioBot',
+    'SET_TRACKER' : 'set_tracker@TgJioBot'
 }, 'COMMAND_')
 
 # GOAL:
